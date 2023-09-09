@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-    <script src="index.js"></script>
-</head>
-<body>
-    
-</body>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <h2>First one to 5 pts wins!</h2>
+
+    <h3>Number of games played:</h3>
+
+    <div id="games-played"></div>
+
+    <br>
+
+    <h4>Player Selection:</h4>
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+
+    <h4>Computer Selection:</h4>
+    <div id="computer-selection"></div>
+
+    <h4>Current Round Results:</h4>
+    <div id="current-round-results"></div>
+
+    <br>
+
+    <h1>Score Board</h1>
+
+    <div id="score-board">
+      <div id="player-score"></div>
+      <br>
+      <div id="computer-score"></div>
+    </div>
+
+
+    <h1 id="winner"></h1>
+  </body>
 </html>
