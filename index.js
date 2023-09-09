@@ -46,15 +46,17 @@ function playRound(playersChoice, computersChoice) {
 
 function game() {
 
-    for(let i = 0; i <=5; i++) {
+    for (let i = 0; i <= 5; i++) {
         let playerSelection = prompt('What is player choice?')
         let computersChoice = getComputerChoice()
         console.log(`Player choice was: ${playerSelection}`)
         console.log(`Computer choice was: ${computersChoice}`)
-        console.log(playRound(playerSelection,computersChoice));
+        console.log(playRound(playerSelection, computersChoice));
     }
 
 }
+
+
 
 
 
